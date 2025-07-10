@@ -1,0 +1,29 @@
+{
+  "name": "create-tstyche",
+  "version": "1.0.0",
+  "description": "The TSTyche starter kit.",
+  "keywords": [
+    "typescript",
+    "types",
+    "test",
+    "starter"
+  ],
+  "homepage": "https://tstyche.org",
+  "bugs": {
+    "url": "https://github.com/tstyche/create-tstyche/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tstyche/create-tstyche.git"
+  },
+  "funding": "https://github.com/tstyche/tstyche?sponsor=1",
+  "license": "MIT",
+  "type": "module",
+  "bin": "./create-tstyche.js",
+  "files": [
+    "create-tstyche.js"
+  ],
+  "engines": {
+    "node": ">=20.12"
+  }
+}
