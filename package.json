@@ -21,6 +21,7 @@
   "type": "module",
   "bin": "./create-tstyche.js",
   "files": [
+    "examples/*",
     "create-tstyche.js"
   ],
   "engines": {
