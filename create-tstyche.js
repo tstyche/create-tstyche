@@ -21,13 +21,11 @@ async function promptBoolean(question) {
     rl.question(questionText, (answer) => {
       rl.close();
 
-      const normalized = answer.trim().toLowerCase();
-
       // Moves the cursor one line up and erases that line.
       process.stdout.write("\u001B[1A\u001B[0K");
       process.stdout.write(questionText);
 
-      if (["y", "yes"].includes(normalized)) {
+      if (["y", "yes"].includes(answer.trim().toLowerCase())) {
         process.stdout.write("yes\n");
         resolve(true);
       } else {
