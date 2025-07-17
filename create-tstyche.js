@@ -96,7 +96,7 @@ async function generate() {
 {
   "$schema": "https://tstyche.org/schemas/config.json",
   "checkSuppressedErrors": true,
-  "checkSourceFiles": true
+  "checkSourceFiles": false
 }
 `;
 
