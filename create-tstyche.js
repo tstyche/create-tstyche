@@ -144,7 +144,7 @@ async function generate() {
     console.info("  Only run the matching test file.");
     console.info("");
 
-    console.info(`  ${styleText("blue", `${execCommand} tstyche --target '5.3,5.5.2,>=5.7'`)}`);
+    console.info(`  ${styleText("blue", `${execCommand} tstyche --target '5.3 || 5.5.2 || >=5.7'`)}`);
     console.info("  Test against specific versions of TypeScript.");
     console.info("");
 
