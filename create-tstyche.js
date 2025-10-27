@@ -95,8 +95,7 @@ async function generate() {
   const configFileText = `// For documentation, see: https://tstyche.org/reference/config-file
 {
   "$schema": "https://tstyche.org/schemas/config.json",
-  "checkSuppressedErrors": true,
-  "checkSourceFiles": false
+  "testFileMatch": ["**/*.tst.*"]
 }
 `;
 
