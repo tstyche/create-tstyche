@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "exactOptionalPropertyTypes": true,
-    "jsx": "preserve",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "noEmit": true,
