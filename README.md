@@ -1,3 +1,9 @@
+> [!CAUTION]
+>
+> `create-tstyche` is deprecated. Please use [`tstyche-starter`](https://github.com/tstyche/tstyche-starter) instead.
+
+---
+
 # create-tstyche
 
 [![version][version-badge]][version-url]
